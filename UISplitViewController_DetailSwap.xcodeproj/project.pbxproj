@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FAB4E9D1A68CFD900831593 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAB4E9C1A68CFD900831593 /* main.m */; };
+		1FAB4EA01A68CFD900831593 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAB4E9F1A68CFD900831593 /* AppDelegate.m */; };
+		1FAB4EA81A68CFD900831593 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FAB4EA71A68CFD900831593 /* Images.xcassets */; };
+		1FAB4EB71A68CFD900831593 /* UISplitViewController_DetailSwapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAB4EB61A68CFD900831593 /* UISplitViewController_DetailSwapTests.m */; };
+		1FAB4EC61A68D08900831593 /* LevelOneMasterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAB4EC41A68D08900831593 /* LevelOneMasterTableViewController.m */; };
+		1FAB4EC71A68D08900831593 /* LevelOneMasterTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FAB4EC51A68D08900831593 /* LevelOneMasterTableViewController.xib */; };
+		1FAB4ECB1A68D09700831593 /* LevelTwoMasterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAB4EC91A68D09700831593 /* LevelTwoMasterTableViewController.m */; };
+		1FAB4ECC1A68D09700831593 /* LevelTwoMasterTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FAB4ECA1A68D09700831593 /* LevelTwoMasterTableViewController.xib */; };
+		1FAB4ED01A68D0AC00831593 /* LevelOneDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAB4ECE1A68D0AC00831593 /* LevelOneDetailViewController.m */; };
+		1FAB4ED11A68D0AC00831593 /* LevelOneDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FAB4ECF1A68D0AC00831593 /* LevelOneDetailViewController.xib */; };
+		1FAB4ED51A68D0C000831593 /* LevelTwoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAB4ED31A68D0C000831593 /* LevelTwoDetailViewController.m */; };
+		1FAB4ED61A68D0C000831593 /* LevelTwoDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FAB4ED41A68D0C000831593 /* LevelTwoDetailViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FAB4EB11A68CFD900831593 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FAB4E8F1A68CFD900831593 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FAB4E961A68CFD900831593;
+			remoteInfo = UISplitViewController_DetailSwap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FAB4E971A68CFD900831593 /* UISplitViewController_DetailSwap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UISplitViewController_DetailSwap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FAB4E9B1A68CFD900831593 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FAB4E9C1A68CFD900831593 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1FAB4E9E1A68CFD900831593 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1FAB4E9F1A68CFD900831593 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1FAB4EA71A68CFD900831593 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1FAB4EB01A68CFD900831593 /* UISplitViewController_DetailSwapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UISplitViewController_DetailSwapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FAB4EB51A68CFD900831593 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FAB4EB61A68CFD900831593 /* UISplitViewController_DetailSwapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UISplitViewController_DetailSwapTests.m; sourceTree = "<group>"; };
+		1FAB4EC31A68D08900831593 /* LevelOneMasterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelOneMasterTableViewController.h; sourceTree = "<group>"; };
+		1FAB4EC41A68D08900831593 /* LevelOneMasterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelOneMasterTableViewController.m; sourceTree = "<group>"; };
+		1FAB4EC51A68D08900831593 /* LevelOneMasterTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LevelOneMasterTableViewController.xib; sourceTree = "<group>"; };
+		1FAB4EC81A68D09700831593 /* LevelTwoMasterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelTwoMasterTableViewController.h; sourceTree = "<group>"; };
+		1FAB4EC91A68D09700831593 /* LevelTwoMasterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelTwoMasterTableViewController.m; sourceTree = "<group>"; };
+		1FAB4ECA1A68D09700831593 /* LevelTwoMasterTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LevelTwoMasterTableViewController.xib; sourceTree = "<group>"; };
+		1FAB4ECD1A68D0AC00831593 /* LevelOneDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelOneDetailViewController.h; sourceTree = "<group>"; };
+		1FAB4ECE1A68D0AC00831593 /* LevelOneDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelOneDetailViewController.m; sourceTree = "<group>"; };
+		1FAB4ECF1A68D0AC00831593 /* LevelOneDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LevelOneDetailViewController.xib; sourceTree = "<group>"; };
+		1FAB4ED21A68D0C000831593 /* LevelTwoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelTwoDetailViewController.h; sourceTree = "<group>"; };
+		1FAB4ED31A68D0C000831593 /* LevelTwoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelTwoDetailViewController.m; sourceTree = "<group>"; };
+		1FAB4ED41A68D0C000831593 /* LevelTwoDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LevelTwoDetailViewController.xib; sourceTree = "<group>"; };
+		1FAB4ED91A68D13500831593 /* LevelTwoMasterTableViewControllerBackDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelTwoMasterTableViewControllerBackDelegate.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FAB4E941A68CFD900831593 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FAB4EAD1A68CFD900831593 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FAB4E8E1A68CFD900831593 = {
+			isa = PBXGroup;
+			children = (
+				1FAB4E991A68CFD900831593 /* UISplitViewController_DetailSwap */,
+				1FAB4EB31A68CFD900831593 /* UISplitViewController_DetailSwapTests */,
+				1FAB4E981A68CFD900831593 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FAB4E981A68CFD900831593 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FAB4E971A68CFD900831593 /* UISplitViewController_DetailSwap.app */,
+				1FAB4EB01A68CFD900831593 /* UISplitViewController_DetailSwapTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FAB4E991A68CFD900831593 /* UISplitViewController_DetailSwap */ = {
+			isa = PBXGroup;
+			children = (
+				1FAB4E9E1A68CFD900831593 /* AppDelegate.h */,
+				1FAB4E9F1A68CFD900831593 /* AppDelegate.m */,
+				1FAB4EA71A68CFD900831593 /* Images.xcassets */,
+				1FAB4E9A1A68CFD900831593 /* Supporting Files */,
+				1FAB4ED81A68D0D500831593 /* LevelOne */,
+				1FAB4ED71A68D0C800831593 /* LevelTwo */,
+			);
+			path = UISplitViewController_DetailSwap;
+			sourceTree = "<group>";
+		};
+		1FAB4E9A1A68CFD900831593 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FAB4E9B1A68CFD900831593 /* Info.plist */,
+				1FAB4E9C1A68CFD900831593 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1FAB4EB31A68CFD900831593 /* UISplitViewController_DetailSwapTests */ = {
+			isa = PBXGroup;
+			children = (
+				1FAB4EB61A68CFD900831593 /* UISplitViewController_DetailSwapTests.m */,
+				1FAB4EB41A68CFD900831593 /* Supporting Files */,
+			);
+			path = UISplitViewController_DetailSwapTests;
+			sourceTree = "<group>";
+		};
+		1FAB4EB41A68CFD900831593 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FAB4EB51A68CFD900831593 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1FAB4ED71A68D0C800831593 /* LevelTwo */ = {
+			isa = PBXGroup;
+			children = (
+				1FAB4ED91A68D13500831593 /* LevelTwoMasterTableViewControllerBackDelegate.h */,
+				1FAB4EC81A68D09700831593 /* LevelTwoMasterTableViewController.h */,
+				1FAB4EC91A68D09700831593 /* LevelTwoMasterTableViewController.m */,
+				1FAB4ECA1A68D09700831593 /* LevelTwoMasterTableViewController.xib */,
+				1FAB4ED21A68D0C000831593 /* LevelTwoDetailViewController.h */,
+				1FAB4ED31A68D0C000831593 /* LevelTwoDetailViewController.m */,
+				1FAB4ED41A68D0C000831593 /* LevelTwoDetailViewController.xib */,
+			);
+			name = LevelTwo;
+			sourceTree = "<group>";
+		};
+		1FAB4ED81A68D0D500831593 /* LevelOne */ = {
+			isa = PBXGroup;
+			children = (
+				1FAB4EC31A68D08900831593 /* LevelOneMasterTableViewController.h */,
+				1FAB4EC41A68D08900831593 /* LevelOneMasterTableViewController.m */,
+				1FAB4EC51A68D08900831593 /* LevelOneMasterTableViewController.xib */,
+				1FAB4ECD1A68D0AC00831593 /* LevelOneDetailViewController.h */,
+				1FAB4ECE1A68D0AC00831593 /* LevelOneDetailViewController.m */,
+				1FAB4ECF1A68D0AC00831593 /* LevelOneDetailViewController.xib */,
+			);
+			name = LevelOne;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FAB4E961A68CFD900831593 /* UISplitViewController_DetailSwap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FAB4EBA1A68CFD900831593 /* Build configuration list for PBXNativeTarget "UISplitViewController_DetailSwap" */;
+			buildPhases = (
+				1FAB4E931A68CFD900831593 /* Sources */,
+				1FAB4E941A68CFD900831593 /* Frameworks */,
+				1FAB4E951A68CFD900831593 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UISplitViewController_DetailSwap;
+			productName = UISplitViewController_DetailSwap;
+			productReference = 1FAB4E971A68CFD900831593 /* UISplitViewController_DetailSwap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1FAB4EAF1A68CFD900831593 /* UISplitViewController_DetailSwapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FAB4EBD1A68CFD900831593 /* Build configuration list for PBXNativeTarget "UISplitViewController_DetailSwapTests" */;
+			buildPhases = (
+				1FAB4EAC1A68CFD900831593 /* Sources */,
+				1FAB4EAD1A68CFD900831593 /* Frameworks */,
+				1FAB4EAE1A68CFD900831593 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FAB4EB21A68CFD900831593 /* PBXTargetDependency */,
+			);
+			name = UISplitViewController_DetailSwapTests;
+			productName = UISplitViewController_DetailSwapTests;
+			productReference = 1FAB4EB01A68CFD900831593 /* UISplitViewController_DetailSwapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FAB4E8F1A68CFD900831593 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Tencorners, LLC";
+				TargetAttributes = {
+					1FAB4E961A68CFD900831593 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					1FAB4EAF1A68CFD900831593 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 1FAB4E961A68CFD900831593;
+					};
+				};
+			};
+			buildConfigurationList = 1FAB4E921A68CFD900831593 /* Build configuration list for PBXProject "UISplitViewController_DetailSwap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FAB4E8E1A68CFD900831593;
+			productRefGroup = 1FAB4E981A68CFD900831593 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FAB4E961A68CFD900831593 /* UISplitViewController_DetailSwap */,
+				1FAB4EAF1A68CFD900831593 /* UISplitViewController_DetailSwapTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FAB4E951A68CFD900831593 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FAB4ED61A68D0C000831593 /* LevelTwoDetailViewController.xib in Resources */,
+				1FAB4EA81A68CFD900831593 /* Images.xcassets in Resources */,
+				1FAB4ECC1A68D09700831593 /* LevelTwoMasterTableViewController.xib in Resources */,
+				1FAB4ED11A68D0AC00831593 /* LevelOneDetailViewController.xib in Resources */,
+				1FAB4EC71A68D08900831593 /* LevelOneMasterTableViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FAB4EAE1A68CFD900831593 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FAB4E931A68CFD900831593 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FAB4ECB1A68D09700831593 /* LevelTwoMasterTableViewController.m in Sources */,
+				1FAB4EA01A68CFD900831593 /* AppDelegate.m in Sources */,
+				1FAB4ED01A68D0AC00831593 /* LevelOneDetailViewController.m in Sources */,
+				1FAB4E9D1A68CFD900831593 /* main.m in Sources */,
+				1FAB4ED51A68D0C000831593 /* LevelTwoDetailViewController.m in Sources */,
+				1FAB4EC61A68D08900831593 /* LevelOneMasterTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FAB4EAC1A68CFD900831593 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FAB4EB71A68CFD900831593 /* UISplitViewController_DetailSwapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FAB4EB21A68CFD900831593 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FAB4E961A68CFD900831593 /* UISplitViewController_DetailSwap */;
+			targetProxy = 1FAB4EB11A68CFD900831593 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1FAB4EB81A68CFD900831593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		1FAB4EB91A68CFD900831593 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FAB4EBB1A68CFD900831593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UISplitViewController_DetailSwap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		1FAB4EBC1A68CFD900831593 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UISplitViewController_DetailSwap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		1FAB4EBE1A68CFD900831593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UISplitViewController_DetailSwapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UISplitViewController_DetailSwap.app/UISplitViewController_DetailSwap";
+			};
+			name = Debug;
+		};
+		1FAB4EBF1A68CFD900831593 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UISplitViewController_DetailSwapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UISplitViewController_DetailSwap.app/UISplitViewController_DetailSwap";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FAB4E921A68CFD900831593 /* Build configuration list for PBXProject "UISplitViewController_DetailSwap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FAB4EB81A68CFD900831593 /* Debug */,
+				1FAB4EB91A68CFD900831593 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FAB4EBA1A68CFD900831593 /* Build configuration list for PBXNativeTarget "UISplitViewController_DetailSwap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FAB4EBB1A68CFD900831593 /* Debug */,
+				1FAB4EBC1A68CFD900831593 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1FAB4EBD1A68CFD900831593 /* Build configuration list for PBXNativeTarget "UISplitViewController_DetailSwapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FAB4EBE1A68CFD900831593 /* Debug */,
+				1FAB4EBF1A68CFD900831593 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FAB4E8F1A68CFD900831593 /* Project object */;
+}
